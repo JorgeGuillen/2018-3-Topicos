@@ -1,0 +1,6 @@
+desarolle un método que resuelva una ecuación cuadrática de una variable de la forma
+ax2+bx+c=0
+* debe devolver las dos raíces y el discriminante en una única clase
+debe considerar los siguientes casos de error:
+- a = 0
+- discriminante < 0
