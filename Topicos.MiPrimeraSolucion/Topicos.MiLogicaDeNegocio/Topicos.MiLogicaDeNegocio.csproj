@@ -61,22 +61,22 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Logica\Servicio\Service1.svc" />
+    <Content Include="Logica\Servicio\LogicaNegocio.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Logica\Servicio\Service1.svc.cs">
-      <DependentUpon>Service1.svc</DependentUpon>
+    <Compile Include="Logica\Accion\ResolverEcuacionCuadratica.cs" />
+    <Compile Include="Logica\Especificacion\ResuelvaEcuacionCuadratica.cs" />
+    <Compile Include="Logica\Servicio\LogicaNegocio.svc.cs">
+      <DependentUpon>LogicaNegocio.svc</DependentUpon>
     </Compile>
-    <Compile Include="Logica\Interfaz\IService1.cs" />
+    <Compile Include="Logica\Interfaz\ILogicaNegocio.cs" />
+    <Compile Include="Logica\Validacion\EcuacionesCuadraticas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Logica\Accion\" />
-    <Folder Include="Logica\Especificacion\" />
     <Folder Include="Logica\Repositorio\" />
-    <Folder Include="Logica\Validacion\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">

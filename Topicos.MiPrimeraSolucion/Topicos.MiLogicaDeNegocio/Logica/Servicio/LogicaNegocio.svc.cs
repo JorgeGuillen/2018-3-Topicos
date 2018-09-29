@@ -10,8 +10,9 @@ namespace Topicos.MiLogicaDeNegocio
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in code, svc and config file together.
     // NOTE: In order to launch WCF Test Client for testing this service, please select Service1.svc or Service1.svc.cs at the Solution Explorer and start debugging.
-    public class Service1 : ILogicaNegocio
+    public class LogicaNegocio : ILogicaNegocio
     {
+
         public string GetData(int value)
         {
             return string.Format("You entered: {0}", value);
@@ -28,6 +29,14 @@ namespace Topicos.MiLogicaDeNegocio
                 composite.StringValue += "Suffix";
             }
             return composite;
+        }
+
+        public ResultadoEcuacionCuadratica ResolverEcuacionCuadratica(float a, float b, float c)
+        {
+            //Topicos.MiLogicaDeNegocio.Logica.Especificacion.ResuelvaEcuacionCuadratica laEspecificacion = new Logica.Especificacion.ResuelvaEcuacionCuadratica();
+            var laEspecificacion = new Logica.Especificacion.ResuelvaEcuacionCuadratica();
+            var elResultado = laEspecificacion.ResolverEcuacionCuadratica(a, b, c);
+            return elResultado;
         }
     }
 }
