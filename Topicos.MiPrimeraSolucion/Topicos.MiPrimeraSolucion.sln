@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.MiPrimeraSolucion",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.MiLogicaDeNegocio", "Topicos.MiLogicaDeNegocio\Topicos.MiLogicaDeNegocio.csproj", "{A5BB9991-0E17-4343-B3FE-F450B7B58DC7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topicos.MiPrimeraSolucion.BL.UnitTesting", "Topicos.MiPrimeraSolucion.BL.UnitTesting\Topicos.MiPrimeraSolucion.BL.UnitTesting.csproj", "{BA6707BD-941C-43AF-A794-C64420339F70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A5BB9991-0E17-4343-B3FE-F450B7B58DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5BB9991-0E17-4343-B3FE-F450B7B58DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5BB9991-0E17-4343-B3FE-F450B7B58DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6707BD-941C-43AF-A794-C64420339F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6707BD-941C-43AF-A794-C64420339F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6707BD-941C-43AF-A794-C64420339F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6707BD-941C-43AF-A794-C64420339F70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
