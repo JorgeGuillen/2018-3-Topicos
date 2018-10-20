@@ -13,6 +13,9 @@ namespace Topicos.WWI.Customers.BL
     public interface ICustomers
     {
         [OperationContract]
+        IList<Model.Customers> ListarPorNombreAproximado(string elNombreAproximado);
+
+        [OperationContract]
         IEnumerable<Model.Customers> GetCustomersByName(string CustomerName);
 
         [OperationContract]
